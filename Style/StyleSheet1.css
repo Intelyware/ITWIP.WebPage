@@ -1,0 +1,158 @@
+﻿.logo {
+    width: 200px; /* aumenta el tamaño */
+    
+}
+
+
+
+
+.t-p {
+    font-size: 30px;
+    font-weight:100;
+    color: orangered;
+}
+
+.t-a {
+    font-size: 55px;
+    font-weight: bold;
+    
+}
+
+.p {
+    
+    font-weight: bold;
+}
+
+.h {
+    font-weight: bold;
+    color: orangered;
+}
+
+.fj {
+    font-weight: bold;
+    
+}
+
+
+.t-sub {
+    font-size: 55px;
+    font-weight: lighter;
+}
+
+.p-p {
+    font-size:large;
+    color: silver;
+}
+
+.btn-degradado {
+    background: linear-gradient(90deg, #E36C29, #F0A41F);
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(230, 74, 25, 0.4);
+    transition: all 0.3s ease;
+}
+
+    .btn-degradado:hover {
+        background: linear-gradient(90deg, #ff7f32, #ff5722);
+        box-shadow: 0 6px 14px rgba(230, 74, 25, 0.6);
+        transform: translateY(-2px);
+    }
+
+.tech-bar {
+    background-color: #f6f3f3; /* tono gris claro del fondo */
+}
+
+.tech-logo {
+    height: 50px; /* tamaño uniforme */
+    max-width: 120px;
+    object-fit: contain;
+    filter: brightness(0.95);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.tech-logo:hover {
+ transform: scale(1.08);
+ filter: brightness(1.1);
+ }
+body {
+    background-color: #fff;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+.service-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+    height: 100%;
+}
+
+    .service-card:hover {
+        box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+        transform: translateY(-4px);
+    }
+
+.service-icon {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.border-blue {
+    border-color: #5b8ef7;
+}
+
+.border-pink {
+    border-color: #f78fb3;
+}
+
+.border-green {
+    border-color: #66d19e;
+}
+
+.border-yellow {
+    border-color: #f6d76b;
+}
+
+.text-blue {
+    color: #5b8ef7;
+}
+
+.text-pink {
+    color: #f78fb3;
+}
+
+.text-green {
+    color: #66d19e;
+}
+
+.text-yellow {
+    color: #f6d76b;
+}
+
+.service-card h5 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
+.icon {
+    font-size:40px;
+}
+
+.service-icon img {
+    width: 40px; /* aumenta el tamaño */
+    height: 40px;
+    filter: invert(33%) sepia(97%) saturate(3080%) hue-rotate(203deg) brightness(96%) contrast(101%);
+    /* Esto aplica un tono azul si el SVG es negro */
+}

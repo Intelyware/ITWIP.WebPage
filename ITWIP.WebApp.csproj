@@ -67,7 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\android.jpg" />
+    <Content Include="Images\asp-net.jpg" />
+    <Content Include="Images\bootstrap.jpg" />
+    <Content Include="Images\code-slash.svg" />
+    <Content Include="Images\embarcafero.jpg" />
+    <Content Include="Images\globe.svg" />
+    <Content Include="Images\grid-3x3-gap-fill.svg" />
+    <Content Include="Images\logo.jpg" />
+    <Content Include="Images\pc-display.svg" />
+    <Content Include="Images\sql-server.jpg" />
     <Content Include="inicio.html" />
+    <Content Include="Style\StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
