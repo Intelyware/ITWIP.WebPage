@@ -1,0 +1,19 @@
+https://captcha.com/doc/aspnet/asp.net-webforms-captcha-quickstart.html
+https://captcha.com/asp.net-captcha.html?referrer=nuget&utm_source=nuget&utm_medium=nuget&utm_campaign=4.4.2.0
+
+Add a Nuget Package named “BotDetect” to our project. To do this, you can follow the steps given below:
+1. Right click on “References” on your project in the Solution Explorer
+2. Click on “Manage Nuget Packages”
+3. Search for BotDetect and install the one that is created by Captcha
+
+
+The BotDetect ASP.NET CAPTCHA NuGet package has been added to your project.
+
+1. You can find what is new in the latest release here:
+   https://captcha.com/captcha-roadmap-and-release-notes.html#aspnet_current_release
+
+2. Captcha integration instructions:
+   https://captcha.com/asp.net-captcha.html
+
+3. You can download BotDetect ASP.NET Captcha code examples here:
+   https://captcha.com/captcha-download.html?version=aspnet
