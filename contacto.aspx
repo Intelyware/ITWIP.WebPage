@@ -43,12 +43,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                &nbsp;
-                &nbsp; &nbsp;
-                &nbsp; &nbsp;
-                &nbsp; &nbsp;
-                &nbsp;
-
+              
                 <div class="collapse navbar-collapse w-100" id="collapsibleNavbar">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item d-flex align-items-center gap-1">
