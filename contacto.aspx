@@ -29,54 +29,65 @@
 
 <body>
     <form id="form1" runat="server">
-
-        <div id="divHeader">
-            
-            <nav class="navbar navbar-expand-sm bg-white navbar-light shadow">
-                <div class="container-fluid">
-                    <!--<div class="d-none d-sm-block">-->
-                    <a class="navbar-brand" href="inicio.html">
-                        <img src="Images/logo.jpg" alt="Avatar Logo" class="logo">
-                    </a>
-
-                    <!-- </div>  -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                        <ul class="navbar-nav me-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="inicio.html#divCardWebPage">Pàginas Web</a>
-                            </li>
-                            &nbsp;
-                            &nbsp;
-                            <li class="nav-item">
-                                <a class="nav-link" href="inicio.html#divCardAppDev">Desarrollos</a>
-                            </li>
-                            &nbsp;
-                            &nbsp;
-                            <li class="nav-item">
-                                <a class="nav-link" href="inicio.html#divCardAppInt">Aplicaciones</a>
-                            </li>
-                            &nbsp;
-                            &nbsp;
-                            <li class="nav-item">
-                                <a class="nav-link" href="inicio.html#divCardCompEquipment">Equipo</a>
-                            </li>
-                            &nbsp;
-                            &nbsp;
-                            <li class="nav-item">
-                                <a class="nav-link" href="contacto.aspx">Contacto</a>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-            </nav>
- 
-        </div>
         
+    <div id="divHeader">
+
+        <nav class="navbar navbar-expand-sm bg-white navbar-light shadow">
+            <div class="container-fluid">
+                <!--<div class="d-none d-sm-block">-->
+                <a class="navbar-brand" href="inicio.html">
+                    <img src="Images/logo.jpg" alt="Avatar Logo" class="logo">
+                </a>
+
+                <!-- </div>  -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                &nbsp;
+                &nbsp; &nbsp;
+                &nbsp; &nbsp;
+                &nbsp; &nbsp;
+                &nbsp;
+
+                <div class="collapse navbar-collapse w-100" id="collapsibleNavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item d-flex align-items-center gap-1">
+                            <img src="Images/globe.svg" class="log-var" />
+                            <a class="nav-link" href="inicio.html#divCardWebPage">Páginas Web</a>
+                        </li>
+
+                        &nbsp;
+                        &nbsp;
+                        <li class="nav-item d-flex align-items-center gap-1">
+                            <img src="Images/code-slash.svg" class="log-var" />
+                            <a class="nav-link" href="inicio.html#divCardAppDev">Desarrollos</a>
+                        </li>
+                        &nbsp;
+                        &nbsp;
+                        <li class="nav-item d-flex align-items-center gap-1">
+                            <img src="Images/grid-3x3-gap-fill.svg" class="log-var" />
+                            <a class="nav-link" href="inicio.html#divCardAppInt">Aplicaciones</a>
+                        </li>
+                        &nbsp;
+                        &nbsp;
+                        <li class="nav-item d-flex align-items-center gap-1">
+                            <img src="Images/pc-display.svg" class="log-var" />
+                            <a class="nav-link" href="inicio.html#divCardCompEquipment">Equipo</a>
+                        </li>
+                        &nbsp;
+                        &nbsp;
+                        <li class="nav-item d-flex align-items-center gap-1">
+                            <img src="Images/person-fill.svg" class="log-var" />
+                            <a class="nav-link" href="contacto.aspx">Contacto</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
         <div id="divBody" class="container-fluid" >
             
             <div id="divRowOfferServices" class="row mt-5">
@@ -249,10 +260,20 @@
             </div>
 
         </div>
+        
+    <div id="divFooter" class=" text-white py-3">
+        <div class="container text-center">
 
-        <div id="divFooter" class="container-fluid" >
+            <img class="logo-foother" src="Images/logo-sinfondo.png" />
+
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+
         </div>
-    
+    </div>
+
     </form>
 </body>
 

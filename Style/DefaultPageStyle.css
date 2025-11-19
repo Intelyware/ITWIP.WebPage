@@ -3,8 +3,21 @@
     
 }
 
+.log-var {
+    width: 18px;
+    height: 18px;
+}
+
+.logo-foother {
+    width: 200px;
+    
+}
 
 
+#divFooter {
+    background-color: #d5dbe2; /* gris claro */
+    padding: 20px 0;
+}
 
 .t-p {
     font-size: 30px;
